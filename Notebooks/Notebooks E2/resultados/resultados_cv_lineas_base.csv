@@ -1,0 +1,8 @@
+modelo,k,MAE_media,MAE_std,F1_macro_media,F1_macro_std,recall_retrasado
+B1 persistencia,4,5.983,1.757,0.403,0.033,0.034
+B1 persistencia,8,4.574,0.949,0.557,0.082,0.245
+B1 persistencia,12,4.374,0.439,0.562,0.12,0.295
+B2 histórico,0,4.444,1.515,0.231,0.022,0.0
+B2 histórico,4,4.444,1.515,0.231,0.022,0.0
+B2 histórico,8,4.444,1.515,0.231,0.022,0.0
+B2 histórico,12,4.444,1.515,0.231,0.022,0.0
