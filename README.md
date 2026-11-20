@@ -15,6 +15,7 @@ Estudio de aprendizaje automático para predecir el retraso con que un bus de un
 | `Notebooks/Notebooks E2/AM2026-2_Experimentacion.ipynb` | **Entregable 2**: experimentación completa (preprocesamiento, EDA, variables F0/F1/F2, partición temporal, líneas base, búsqueda en malla, evaluación en prueba, pruebas estadísticas, ablaciones e importancia de variables). Incluye los resultados ejecutados. |
 | `Notebooks/Notebooks E2/resultados/` | Tablas de resultados en CSV generadas por el notebook del Entregable 2 (ver abajo). |
 | `Notebooks/Notebooks E2/fig/` | Figuras del Entregable 2; las de prefijo `paper_` son las versiones a ancho de columna usadas en el paper. |
+| `Informes/Entregable2_Grupo06.docx` | Paper del **Entregable 2**: implementación, resultados y discusión (formato IEEE). |
 
 ## Datos
 
