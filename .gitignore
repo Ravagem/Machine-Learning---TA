@@ -1,0 +1,11 @@
+# Datos pesados (Monitoring.csv supera el límite de 100 MB de GitHub)
+Monitoring.csv
+**/Monitoring.csv
+data/
+
+# Archivos temporales
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+~$*
