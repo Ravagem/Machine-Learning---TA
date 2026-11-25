@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.24)  24 NOV 2026 23:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.24)  25 NOV 2026 00:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,6 +433,25 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip59
 )
+(D:\Latex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(D:\Latex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(D:\Latex\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
    defining Unicode char U+2212 (decimal 8722)
    defining Unicode char U+2264 (decimal 8804)
    defining Unicode char U+2265 (decimal 8805)
@@ -440,6 +459,24 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
    defining Unicode char U+2192 (decimal 8594)
    defining Unicode char U+03BA (decimal 954)
 \tabbox=\box59
+
+
+! LaTeX Error: Option clash for package hyperref.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 
+     
+The package hyperref has already been loaded with options:
+  [hidelinks]
+There has now been an attempt to load it with options
+  [colorlinks=true, urlcolor=blue, linkcolor=black, citecolor=black]
+Adding the global options:
+  hidelinks,colorlinks=true, urlcolor=blue, linkcolor=black, citecolor=black
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
 
 (D:\Latex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
@@ -452,28 +489,28 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 -- Lines per column: 56 (exact).
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
+LaTeX Info: Redefining \. on input line 53.
+LaTeX Info: Redefining \% on input line 53.
 (D:\Latex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count323
@@ -495,18 +532,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (D:\Latex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 50.
+Package hyperref Info: Link coloring OFF on input line 53.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
 
 
 (D:\Latex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
 
  (D:\Latex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -516,7 +553,7 @@ fonts/enc/dvips/base/8r.enc}
 
 
 ]
-Overfull \hbox (3.2493pt too wide) in paragraph at lines 156--156
+Overfull \hbox (3.2493pt too wide) in paragraph at lines 159--159
 []|\T1/ptm/m/n/7 Apelotonamiento|  
  []
 
@@ -524,10 +561,10 @@ Overfull \hbox (3.2493pt too wide) in paragraph at lines 156--156
 <fig/paper_fig1_ruta.png, id=237, 233.4321pt x 86.4831pt>
 File: fig/paper_fig1_ruta.png Graphic file (type png)
 <use fig/paper_fig1_ruta.png>
-Package pdftex.def Info: fig/paper_fig1_ruta.png  used on input line 202.
+Package pdftex.def Info: fig/paper_fig1_ruta.png  used on input line 205.
 (pdftex.def)             Requested size: 252.0pt x 93.36601pt.
 
-Underfull \hbox (badness 2393) in paragraph at lines 249--249
+Underfull \hbox (badness 2393) in paragraph at lines 252--252
 []|\T1/ptm/m/n/7 7746 de 84726 PC
  []
 
@@ -535,17 +572,17 @@ Underfull \hbox (badness 2393) in paragraph at lines 249--249
 <fig/paper_fig2_hora_dia.png, id=257, 233.4321pt x 226.9278pt>
 File: fig/paper_fig2_hora_dia.png Graphic file (type png)
 <use fig/paper_fig2_hora_dia.png>
-Package pdftex.def Info: fig/paper_fig2_hora_dia.png  used on input line 285.
+Package pdftex.def Info: fig/paper_fig2_hora_dia.png  used on input line 288.
 (pdftex.def)             Requested size: 252.0pt x 244.98833pt.
 <fig/paper_fig3_tramos.png, id=259, 233.4321pt x 125.0271pt>
 File: fig/paper_fig3_tramos.png Graphic file (type png)
 <use fig/paper_fig3_tramos.png>
-Package pdftex.def Info: fig/paper_fig3_tramos.png  used on input line 293.
+Package pdftex.def Info: fig/paper_fig3_tramos.png  used on input line 296.
 (pdftex.def)             Requested size: 252.0pt x 134.97763pt.
 <fig/paper_fig4_corr_k.png, id=261, 231.0231pt x 118.2819pt>
 File: fig/paper_fig4_corr_k.png Graphic file (type png)
 <use fig/paper_fig4_corr_k.png>
-Package pdftex.def Info: fig/paper_fig4_corr_k.png  used on input line 301.
+Package pdftex.def Info: fig/paper_fig4_corr_k.png  used on input line 304.
 (pdftex.def)             Requested size: 252.0pt x 129.02397pt.
 
 
@@ -554,87 +591,87 @@ LaTeX Warning: Text page 4 contains only floats.
 [4 <./fig/paper_fig2_hora_dia.png> <./fig/paper_fig3_tramos.png> <./fig/paper_f
 ig4_corr_k.png>] [5] [6] (tablas/t_cv_mae.tex) (tablas/t_cv_f1.tex)
 (tablas/t_test_mae.tex) (tablas/t_test_f1.tex) (tablas/t_h1.tex) [7]
-<fig/paper_fig5_efecto_k.png, id=366, 233.4321pt x 268.6035pt>
+<fig/paper_fig5_efecto_k.png, id=367, 233.4321pt x 268.6035pt>
 File: fig/paper_fig5_efecto_k.png Graphic file (type png)
 <use fig/paper_fig5_efecto_k.png>
-Package pdftex.def Info: fig/paper_fig5_efecto_k.png  used on input line 486.
+Package pdftex.def Info: fig/paper_fig5_efecto_k.png  used on input line 489.
 (pdftex.def)             Requested size: 252.0pt x 289.9809pt.
 
 (tablas/t_h2.tex) (tablas/t_h3.tex) (tablas/t_xgb_rf.tex) [8 <./fig/paper_fig5_
 efecto_k.png>]
-<fig/paper_fig6_confusion.png, id=381, 234.3957pt x 115.1502pt>
+<fig/paper_fig6_confusion.png, id=382, 234.3957pt x 115.1502pt>
 File: fig/paper_fig6_confusion.png Graphic file (type png)
 <use fig/paper_fig6_confusion.png>
-Package pdftex.def Info: fig/paper_fig6_confusion.png  used on input line 525.
+Package pdftex.def Info: fig/paper_fig6_confusion.png  used on input line 528.
 (pdftex.def)             Requested size: 252.0pt x 123.79987pt.
  (tablas/t_sens_espec.tex) (tablas/t_umbrales.tex)
 (tablas/t_dia.tex) (tablas/t_cribado.tex)
-<fig/paper_fig7_importancia.png, id=386, 247.1634pt x 320.1561pt>
+<fig/paper_fig7_importancia.png, id=387, 247.1634pt x 320.1561pt>
 File: fig/paper_fig7_importancia.png Graphic file (type png)
 <use fig/paper_fig7_importancia.png>
-Package pdftex.def Info: fig/paper_fig7_importancia.png  used on input line 574
+Package pdftex.def Info: fig/paper_fig7_importancia.png  used on input line 577
 .
 (pdftex.def)             Requested size: 252.0pt x 326.42787pt.
  [9 <./fig/paper_fig6_confusion.png> <./fig/paper_fig7_importancia.png>]
-<fig/paper_fig8_shap.png, id=403, 236.082pt x 124.7862pt>
+<fig/paper_fig8_shap.png, id=404, 236.082pt x 124.7862pt>
 File: fig/paper_fig8_shap.png Graphic file (type png)
 <use fig/paper_fig8_shap.png>
-Package pdftex.def Info: fig/paper_fig8_shap.png  used on input line 582.
+Package pdftex.def Info: fig/paper_fig8_shap.png  used on input line 585.
 (pdftex.def)             Requested size: 252.0pt x 133.2pt.
-<fig/paper_fig9_shap_sabado.png, id=404, 236.5638pt x 119.4864pt>
+<fig/paper_fig9_shap_sabado.png, id=405, 236.5638pt x 119.4864pt>
 File: fig/paper_fig9_shap_sabado.png Graphic file (type png)
 <use fig/paper_fig9_shap_sabado.png>
-Package pdftex.def Info: fig/paper_fig9_shap_sabado.png  used on input line 588
+Package pdftex.def Info: fig/paper_fig9_shap_sabado.png  used on input line 591
 .
 (pdftex.def)             Requested size: 252.0pt x 127.28215pt.
  [10 <./fig/paper_fig8_shap.png> <./fig/paper_fig9_shap_sabado.png>] [11]
-Underfull \hbox (badness 5245) in paragraph at lines 636--637
+Underfull \hbox (badness 5245) in paragraph at lines 639--640
 []\T1/ptm/m/n/8 N. Rash-vand, S. S. Hos-sei-ni, M. Azar-bay-ja-ni y H. Tabkhi,
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 636--637
+Underfull \hbox (badness 1622) in paragraph at lines 639--640
 \T1/ptm/m/n/8 ``Real-time bus arri-val pre-dic-tion: A deep lear-ning ap-proach
  for
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 636--637
+Underfull \hbox (badness 3179) in paragraph at lines 639--640
 \T1/ptm/m/n/8 en-han-ced ur-ban mo-bi-lity,'' Sci-Te-Press, 2024, pp. 123--132,
  doi:
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 643--644
+Underfull \hbox (badness 2393) in paragraph at lines 646--647
 \T1/ptm/m/n/8 ween sen-si-ti-vity and spe-ci-fi-city in bus bun-ching pre-dic-t
 ion,'' \T1/ptm/m/it/8 J.
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 643--644
+Underfull \hbox (badness 2990) in paragraph at lines 646--647
 \T1/ptm/m/it/8 In-tell. Transp. Syst.\T1/ptm/m/n/8 , vol. 25, no. 4, pp. 384--4
 00, 2021, doi:
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 644--645
+Underfull \hbox (badness 1603) in paragraph at lines 647--648
 []\T1/ptm/m/n/8 H. Yu, D. Chen, Z. Wu, X. Ma y Y. Wang, ``Headway-based
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 644--645
+Underfull \hbox (badness 2205) in paragraph at lines 647--648
 \T1/ptm/m/n/8 bus bun-ching pre-dic-tion using transit smart card da-ta,'' \T1/
 ptm/m/it/8 Transp.
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 644--645
+Underfull \hbox (badness 2894) in paragraph at lines 647--648
 \T1/ptm/m/it/8 Res. Part C Emerg. Tech-nol.\T1/ptm/m/n/8 , vol. 72, pp. 45--59,
  2016, doi:
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-46.
+49.
 (D:\Latex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -661,13 +698,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 6D66C13C0EF7D359174CB17DC344AEEC;8254.
  ) 
 Here is how much of TeX's memory you used:
- 12760 strings out of 467871
- 197423 string characters out of 5435685
- 654419 words of memory out of 5000000
- 41313 multiletter control sequences out of 15000+600000
+ 13226 strings out of 467871
+ 203858 string characters out of 5435685
+ 668131 words of memory out of 5000000
+ 41770 multiletter control sequences out of 15000+600000
  746748 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,79p,1959b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,79p,1959b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Latex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Latex/fonts/type1/pub
 lic/amsfonts/cm/cmex10.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <D:/Latex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Latex/fonts/type1/public
@@ -681,9 +718,9 @@ pe1/public/amsfonts/cm/cmsy5.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cmsy7
 ublic/amsfonts/cm/cmsy9.pfb><D:/Latex/fonts/type1/urw/times/utmb8a.pfb><D:/Late
 x/fonts/type1/urw/times/utmbi8a.pfb><D:/Latex/fonts/type1/urw/times/utmr8a.pfb>
 <D:/Latex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 759661 bytes).
+Output written on main.pdf (12 pages, 760272 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
+ 541 PDF objects out of 1000 (max. 8388607)
  118 named destinations out of 1000 (max. 500000)
  374 words of extra memory for PDF output out of 10000 (max. 10000000)
 

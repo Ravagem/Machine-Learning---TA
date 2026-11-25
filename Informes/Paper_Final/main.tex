@@ -17,6 +17,7 @@
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \usepackage{url}
 \usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
 \DeclareUnicodeCharacter{2212}{\ensuremath{-}}
 \DeclareUnicodeCharacter{2264}{\ensuremath{\leq}}
 \DeclareUnicodeCharacter{2265}{\ensuremath{\geq}}
@@ -46,6 +47,8 @@
   \mbox{}\hfill\begin{@IEEEauthorhalign}
 }
 \makeatother
+
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=black, citecolor=black]{hyperref}
 
 \begin{document}
 
@@ -420,7 +423,7 @@ Se reportan además la exactitud junto con la de la clase mayoritaria, la exacti
 \textbf{Interpretación.} La importancia de las variables se midió por permutación~\cite{breiman2001} sobre el conjunto de prueba, con 10 repeticiones. Para explicar predicciones individuales se usaron valores SHAP~\cite{lundberg2017}, calculados de forma exacta para árboles con \texttt{TreeExplainer}: la predicción de cada vuelta se descompone en el promedio del entrenamiento más una contribución, en minutos, de cada variable.
 
 \subsection{Entorno computacional y reproducibilidad}
-La primera ronda de experimentos se ejecutó en Google Colab. La versión final se ejecutó completa en una sola máquina local con Python 3.13, pandas 2.2.3, NumPy 2.4.6, scikit-learn 1.6.1~\cite{pedregosa2011}, XGBoost 3.4.1, SciPy 1.18.1, statsmodels 0.15.0, SHAP 0.54.1 y matplotlib 3.10.0, con semilla 42. Se observó que XGBoost con submuestreo menor que 1 produce resultados levemente distintos según el número de hilos y la plataforma (hasta 0,03~min de MAE en un pliegue). Por ello cada modelo se entrenó con un solo hilo, lo que hace los resultados deterministas en una misma máquina, y la búsqueda se paralelizó entre combinaciones (66~min con 8 procesos). Random Forest, los modelos lineales y las líneas base reproducen exactamente los resultados de la primera ronda. El código, las tablas de resultados, las predicciones por vuelta, los modelos entrenados y la demostración interactiva se publican en \url{https://github.com/Ravagem/Machine-Learning---TA}.
+La primera ronda de experimentos se ejecutó en Google Colab. La versión final se ejecutó completa en una sola máquina local con Python 3.13, pandas 2.2.3, NumPy 2.4.6, scikit-learn 1.6.1~\cite{pedregosa2011}, XGBoost 3.4.1, SciPy 1.18.1, statsmodels 0.15.0, SHAP 0.54.1 y matplotlib 3.10.0, con semilla 42. Se observó que XGBoost con submuestreo menor que 1 produce resultados levemente distintos según el número de hilos y la plataforma (hasta 0,03~min de MAE en un pliegue). Por ello cada modelo se entrenó con un solo hilo, lo que hace los resultados deterministas en una misma máquina, y la búsqueda se paralelizó entre combinaciones (66~min con 8 procesos). Random Forest, los modelos lineales y las líneas base reproducen exactamente los resultados de la primera ronda. El código, las tablas de resultados, las predicciones por vuelta, los modelos entrenados y la demostración interactiva se publican en \href{https://github.com/Ravagem/Machine-Learning-Modelos.git}{\textcolor{blue}{https://github.com/Ravagem/Machine-Learning-Modelos.git}}.
 
 % =====================================================================================
 \section{Resultados}\label{sec:res}
