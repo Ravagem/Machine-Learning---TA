@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Impuntualidad de buses en Cusco</title>
+<style>
+:root{
+  --sup:#fcfcfb; --plano:#f4f3ef; --tinta:#0b0b0b; --tinta2:#52514e; --muted:#898781; --grid:#e1e0d9; --base:#c3c2b7;
+  --azul:#2a78d6; --naranja:#eb6834; --aqua:#1baf7a; --rojo:#e34948; --gris:#898781;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--plano);color:var(--tinta);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--sup);border-bottom:1px solid var(--grid);padding:18px 24px 0}
+h1{font-size:22px;margin:0 0 2px}
+.sub{color:var(--tinta2);margin:0 0 14px;font-size:14px}
+.kpis{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.kpi{background:var(--plano);border-radius:10px;padding:8px 14px;min-width:150px}
+.kpi b{display:block;font-size:22px}
+.kpi span{color:var(--tinta2);font-size:12.5px}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav button{border:0;background:none;padding:10px 16px;font:inherit;color:var(--tinta2);cursor:pointer;border-bottom:3px solid transparent}
+nav button.on{color:var(--tinta);border-bottom-color:var(--azul);font-weight:600}
+main{max-width:1180px;margin:0 auto;padding:18px 16px 40px}
+section{display:none}
+section.on{display:block}
+.grid2{display:grid;grid-template-columns:1.25fr 1fr;gap:16px}
+@media(max-width:900px){.grid2{grid-template-columns:1fr}}
+.card{background:var(--sup);border:1px solid var(--grid);border-radius:12px;padding:16px;margin-bottom:16px}
+.card h2{font-size:16px;margin:0 0 4px}
+.card p.nota{color:var(--tinta2);font-size:13px;margin:4px 0 10px}
+.controles{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:6px 0 12px}
+label{font-size:13px;color:var(--tinta2)}
+select,input[type=range]{font:inherit}
+select{padding:6px 8px;border:1px solid var(--base);border-radius:8px;background:#fff;max-width:100%}
+.seg{display:inline-flex;border:1px solid var(--base);border-radius:8px;overflow:hidden}
+.seg button{border:0;background:#fff;padding:6px 12px;font:inherit;cursor:pointer;color:var(--tinta2)}
+.seg button.on{background:var(--azul);color:#fff}
+.grande{font-size:34px;font-weight:700;line-height:1.1}
+.fila{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-end}
+.etq{font-size:12.5px;color:var(--tinta2)}
+.chip{display:inline-block;padding:2px 10px;border-radius:999px;font-size:13px;font-weight:600;color:#fff}
+.c0{background:var(--azul)} .c1{background:#8a897f} .c2{background:var(--rojo)}
+.aviso{background:#fff6e5;border:1px solid #f3d48f;border-radius:8px;padding:6px 10px;font-size:13px;color:#6b4e00;margin-top:8px}
+svg text{font-family:inherit}
+#tip{position:fixed;pointer-events:none;background:#0b0b0b;color:#fff;font-size:12.5px;padding:6px 9px;border-radius:6px;opacity:0;transition:opacity .08s;max-width:260px;z-index:9}
+table{border-collapse:collapse;font-size:13.5px}
+td,th{padding:4px 8px;text-align:right}
+th{color:var(--tinta2);font-weight:600}
+.pie{color:var(--muted);font-size:12.5px;margin-top:20px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Predicción de la impuntualidad en una ruta de buses de Cusco</h1>
+  <p class="sub">Grupo 06 · 1INF02 Aprendizaje de Máquina 2026-2 (PUCP). Resultados precalculados del modelo XGBoost evaluado en el paper; conjunto de prueba: 758 vueltas del 28/01 al 01/02/2025.</p>
+  <div class="kpis" id="kpis"></div>
+  <nav id="nav">
+    <button data-s="ruta" class="on">1 · La ruta</button>
+    <button data-s="vuelta">2 · Explorar una vuelta real</button>
+    <button data-s="sim">3 · Simulador antes de salir</button>
+    <button data-s="res">4 · Resultados</button>
+  </nav>
+</header>
+<main>
+
+<section id="ruta" class="on">
+  <div class="card">
+    <h2>¿Dónde se gana y se pierde tiempo?</h2>
+    <p class="nota">Cada punto es un punto de control (PC). El color es la desviación media respecto del horario en ese PC (azul: adelanto; rojo: retraso). Elige una franja para ver cómo cambia el patrón. Pasa el cursor sobre un PC.</p>
+    <div class="controles"><label>Franja</label><div class="seg" id="segFranja"></div></div>
+    <div id="mapaRuta"></div>
+  </div>
+  <div class="card">
+    <h2>Desviación media a lo largo de la vuelta</h2>
+    <p class="nota">Misma franja que el mapa. La línea punteada marca el umbral de retraso (+5 min).</p>
+    <div id="perfilRuta"></div>
+  </div>
+</section>
+
+<section id="vuelta">
+  <div class="card">
+    <h2>Elige una vuelta del conjunto de prueba</h2>
+    <p class="nota">Son vueltas reales que el modelo nunca vio al entrenarse. Elige cuántos puntos de control ya pasó el bus (k): con k = 0 la predicción se hace antes de salir.</p>
+    <div class="controles">
+      <label>Día</label><select id="selFecha"></select>
+      <label>Vuelta</label><select id="selVuelta"></select>
+      <label>PC observados (k)</label><div class="seg" id="segK"></div>
+    </div>
+  </div>
+  <div class="grid2">
+    <div>
+      <div class="card">
+        <div class="fila">
+          <div><div class="etq">Retraso final predicho</div><div class="grande" id="vPred"></div><div id="vPClase"></div></div>
+          <div><div class="etq">Retraso final real</div><div class="grande" id="vReal" style="color:var(--tinta2)"></div><div id="vClase"></div></div>
+          <div><div class="etq">Error absoluto</div><div class="grande" id="vErr" style="font-size:24px"></div></div>
+        </div>
+        <div id="vProba" style="margin-top:12px"></div>
+      </div>
+      <div class="card">
+        <h2>Recorrido de la vuelta</h2>
+        <p class="nota">Línea: desviación real en cada PC. Lo que está a la derecha de k aún no ocurrió cuando se predice (gris). Rombos: predicción del retraso final con k = 0, 4, 8 y 12.</p>
+        <div id="vPerfil"></div>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <h2>Dónde está el bus</h2>
+        <p class="nota">PC ya observados coloreados por su desviación real; el resto en gris.</p>
+        <div id="vMapa"></div>
+      </div>
+      <div class="card">
+        <h2>¿Por qué esa predicción? (SHAP, k = 0)</h2>
+        <p class="nota">Parte del promedio del entrenamiento y suma la contribución de cada variable, en minutos.</p>
+        <div id="vShap"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sim">
+  <div class="card">
+    <h2>Simulador: ¿cuánto retraso esperar antes de que el bus salga?</h2>
+    <p class="nota">Predicción típica del modelo con k = 0 (solo el itinerario), promediada sobre los 45 vehículos de la flota con el número de vuelta más frecuente a esa hora. No es una vuelta real, sino lo que el modelo espera en promedio.</p>
+    <div class="controles"><label>Día</label><div class="seg" id="segDia"></div></div>
+    <div class="controles">
+      <label>Hora programada de salida</label><input type="range" id="rngHora" min="0" step="1" style="width:280px"><b id="lblHora"></b>
+      <label style="margin-left:12px">Horario (duración programada)</label><select id="selHorario"></select>
+    </div>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <div class="etq">Retraso final esperado</div>
+      <div class="grande" id="sPred"></div>
+      <div id="sClase" style="margin:6px 0 10px"></div>
+      <div id="sProba"></div>
+      <div id="sAviso"></div>
+    </div>
+    <div class="card">
+      <h2>A lo largo del día</h2>
+      <p class="nota">Retraso esperado según la hora de salida para el día elegido (azul) y un martes (gris), con el horario más frecuente de cada hora.</p>
+      <div id="sDia"></div>
+    </div>
+  </div>
+</section>
+
+<section id="res">
+  <div class="grid2">
+    <div class="card">
+      <h2>Error según los PC observados</h2>
+      <div class="controles"><div class="seg" id="segTarea"></div></div>
+      <div id="rK"></div>
+    </div>
+    <div class="card">
+      <h2>Error por día de prueba (k = 0)</h2>
+      <p class="nota">El sábado tiene el 14 % de las vueltas y el 28 % del error.</p>
+      <div id="rDia"></div>
+    </div>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h2>Matriz de confusión (XGBoost)</h2>
+      <div class="controles"><div class="seg" id="segConf"></div></div>
+      <div id="rConf"></div>
+    </div>
+    <div class="card">
+      <h2>Importancia por permutación (k = 0)</h2>
+      <p class="nota">Aumento del MAE en prueba al desordenar cada variable.</p>
+      <div id="rImp"></div>
+    </div>
+  </div>
+</section>
+
+<p class="pie">Datos: sistema de transporte inteligente de Cusco, enero de 2025. Código y paper: github.com/Ravagem/Machine-Learning---TA. Este archivo no ejecuta modelos: todas las cifras se calcularon con <code>Demo/construir_demo.py</code>.</p>
+</main>
+<div id="tip"></div>
+
+<script>
+const D = /*__DATOS__*/null;
+const DIAS = ["Lun","Mar","Mié","Jue","Vie","Sáb","Dom"];
+const CLASES = ["Adelantado","Puntual","Retrasado"];
+const VARS = {hora_salida:"Hora de salida", dia_semana:"Día de la semana", lap:"N.º de vuelta", dur_prog:"Horario", vehiculo:"Vehículo"};
+const NOMBRE = {"xgb":"XGBoost","rf":"Random Forest","ridge":"Ridge","logistic":"Logística","B1 persistencia":"B1 persistencia","B2 histórico":"B2 histórico / mayoritaria"};
+const COLOR = {"xgb":"#2a78d6","rf":"#eb6834","ridge":"#1baf7a","logistic":"#1baf7a","B1 persistencia":"#898781","B2 histórico":"#898781"};
+const NS = "http://www.w3.org/2000/svg";
+const fmt = (v,d=1) => (v===null||v===undefined) ? "—" : v.toFixed(d).replace(".",",").replace("-","−");
+const sg = (v,d=1) => (v===null||v===undefined) ? "—" : ((v>0?"+":"") + fmt(v,d));
+const hhmm = h => { const m = Math.round(h*60); return String(Math.floor(m/60)).padStart(2,"0")+":"+String(m%60).padStart(2,"0"); };
+const fechaTxt = f => { const dd = new Date(f+"T12:00:00"); return DIAS[(dd.getDay()+6)%7]+" "+f.slice(8)+"/"+f.slice(5,7); };
+
+// ---------- utilidades SVG y tooltip
+function el(tag, attrs={}, parent=null, text=null){
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (text!==null) e.textContent = text;
+  if (parent) parent.appendChild(e);
+  return e;
+}
+function svg(cont, w, h){ cont.innerHTML=""; return el("svg",{viewBox:`0 0 ${w} ${h}`, width:"100%", role:"img"}, cont); }
+const tip = document.getElementById("tip");
+function hover(node, html){
+  node.addEventListener("mousemove", ev => { tip.innerHTML = html(); tip.style.opacity=1;
+    tip.style.left = Math.min(ev.clientX+14, innerWidth-270)+"px"; tip.style.top = (ev.clientY+14)+"px"; });
+  node.addEventListener("mouseleave", () => tip.style.opacity=0);
+}
+function lerp(a,b,t){ return a+(b-a)*t; }
+function hex(c){ return [1,3,5].map(i=>parseInt(c.slice(i,i+2),16)); }
+function mezcla(c1,c2,t){ const a=hex(c1), b=hex(c2); return "rgb("+a.map((x,i)=>Math.round(lerp(x,b[i],t))).join(",")+")"; }
+function divergente(v, L=5){ // azul (adelanto) – gris – rojo (retraso)
+  if (v===null||v===undefined) return "#d6d5ce";
+  const t = Math.max(-1, Math.min(1, v/L));
+  return t<0 ? mezcla("#f0efec","#1c5cab",-t) : mezcla("#f0efec","#b8302f",t);
+}
+function seg(id, opciones, inicial, alCambiar){
+  const c = document.getElementById(id); c.innerHTML="";
+  opciones.forEach(([val,txt]) => { const b = document.createElement("button"); b.textContent = txt; b.dataset.v = val;
+    if (String(val)===String(inicial)) b.classList.add("on");
+    b.onclick = () => { [...c.children].forEach(x=>x.classList.remove("on")); b.classList.add("on"); alCambiar(val); };
+    c.appendChild(b); });
+}
+
+// ---------- KPIs y navegación
+const M = D.metricas_k0;
+document.getElementById("kpis").innerHTML = `
+  <div class="kpi"><b>${fmt(M.MAE,2)} min</b><span>MAE antes de salir (B2: ${fmt(M.MAE_B2,2)} min)</span></div>
+  <div class="kpi"><b>${fmt(M.R2,2)}</b><span>R² antes de salir</span></div>
+  <div class="kpi"><b>${fmt(M.F1,3)}</b><span>F1-macro (3 clases)</span></div>
+  <div class="kpi"><b>${fmt(M.exactitud*100,1)} %</b><span>exactitud · kappa ${fmt(M.kappa,2)}</span></div>`;
+document.querySelectorAll("#nav button").forEach(b => b.onclick = () => {
+  document.querySelectorAll("#nav button").forEach(x=>x.classList.remove("on")); b.classList.add("on");
+  document.querySelectorAll("section").forEach(s=>s.classList.toggle("on", s.id===b.dataset.s));
+});
+
+// ---------- mapa (proyección equirectangular sobre la traza GPS)
+const LAT0 = -13.54, CX = Math.cos(LAT0*Math.PI/180);
+const todos = D.traza.concat(D.pc.map(p=>[p.lat,p.lon]));
+const lonMin = Math.min(...todos.map(p=>p[1])), lonMax = Math.max(...todos.map(p=>p[1]));
+const latMin = Math.min(...todos.map(p=>p[0])), latMax = Math.max(...todos.map(p=>p[0]));
+function mapa(cont, colorPC, tipPC, W=760){
+  const pad = 26, esc = (W-2*pad)/((lonMax-lonMin)*CX), H = (latMax-latMin)*esc + 2*pad;
+  const X = lon => pad + (lon-lonMin)*CX*esc, Y = lat => pad + (latMax-lat)*esc;
+  const s = svg(cont, W, H);
+  el("polyline",{points:D.traza.map(p=>X(p[1])+","+Y(p[0])).join(" "), fill:"none", stroke:"#c3c2b7", "stroke-width":3, "stroke-linejoin":"round"}, s);
+  const off = {6:[-12,-6],7:[9,12],14:[-4,16],15:[8,-6],1:[8,12],2:[-4,-8],17:[6,14],3:[-4,-8]};
+  D.pc.forEach((p,j) => {
+    const g = el("g",{}, s), x = X(p.lon), y = Y(p.lat);
+    el("circle",{cx:x, cy:y, r:12, fill:"transparent"}, g);
+    el("circle",{cx:x, cy:y, r:7.5, fill:colorPC(j), stroke:"#fcfcfb", "stroke-width":2}, g);
+    const o = off[j+1] || [8,-7];
+    el("text",{x:x+o[0], y:y+o[1], "font-size":11, "font-weight":700, fill:"#0b0b0b"}, g, String(j+1));
+    hover(g, () => tipPC(j));
+  });
+  const nom = (j,txt,dx,dy) => el("text",{x:X(D.pc[j].lon)+dx, y:Y(D.pc[j].lat)+dy, "font-size":11, fill:"#52514e"}, s, txt);
+  nom(12,"San Pedro",-62,-12); nom(9,"Retorno",10,14); nom(0,"Inicio / fin",-22,24);
+  return s;
+}
+function leyenda(cont, L=5){
+  const s = svg(cont, 360, 34);
+  for (let i=0;i<=40;i++){ el("rect",{x:20+i*8, y:4, width:8.5, height:10, fill:divergente(-L+2*L*i/40, L)}, s); }
+  [["−"+L+" min",20],["0",180],["+"+L+" min",340]].forEach(([t,x])=>el("text",{x, y:28, "font-size":11, fill:"#52514e", "text-anchor":"middle"}, s, t));
+}
+
+// ---------- gráfico de líneas genérico por PC
+function perfilPC(cont, series, opts={}){
+  const W=760, H=opts.h||250, ml=44, mr=opts.rombos?92:16, mt=12, mb=34;
+  const vals = series.flatMap(s=>s.v.filter(v=>v!==null)).concat(opts.extra||[]).concat([0,5]);
+  let lo = Math.floor(Math.min(...vals)-1), hi = Math.ceil(Math.max(...vals)+1);
+  const X = j => ml + (j)*(W-ml-mr)/17, Y = v => mt + (hi-v)*(H-mt-mb)/(hi-lo);
+  const s = svg(cont, W, H);
+  const paso = (hi-lo)>24 ? 10 : 5;
+  for (let t=Math.ceil(lo/paso)*paso; t<=hi; t+=paso){
+    el("line",{x1:ml,x2:W-mr,y1:Y(t),y2:Y(t),stroke:t===0?"#52514e":"#e1e0d9","stroke-width":t===0?1.2:1}, s);
+    el("text",{x:ml-6,y:Y(t)+4,"font-size":11,"text-anchor":"end",fill:"#52514e"}, s, String(t).replace("-","−"));
+  }
+  el("line",{x1:ml,x2:W-mr,y1:Y(5),y2:Y(5),stroke:"#898781","stroke-dasharray":"3 3"}, s);
+  for (let j=0;j<18;j++) el("text",{x:X(j),y:H-14,"font-size":11,"text-anchor":"middle",fill:"#52514e"}, s, String(j+1));
+  el("text",{x:(W)/2,y:H-1,"font-size":11,"text-anchor":"middle",fill:"#898781"}, s, "Punto de control");
+  el("text",{x:12,y:mt+(H-mt-mb)/2,"font-size":11,"text-anchor":"middle",fill:"#898781",transform:`rotate(-90 12 ${mt+(H-mt-mb)/2})`}, s, "Desviación (min)");
+  if (opts.corte!==undefined && opts.corte<18){
+    el("rect",{x:X(Math.max(opts.corte-0.5,0)), y:mt, width:W-mr-X(Math.max(opts.corte-0.5,0)), height:H-mt-mb, fill:"#f4f3ef"}, s);
+  }
+  series.forEach(se => {
+    let d="", up=false;
+    se.v.forEach((v,j)=>{ if(v===null){up=false;return;} d += (up?"L":"M")+X(j)+" "+Y(v)+" "; up=true; });
+    el("path",{d, fill:"none", stroke:se.color, "stroke-width":se.w||2.5, "stroke-dasharray":se.dash||""}, s);
+    se.v.forEach((v,j)=>{ if(v===null) return;
+      const c = el("circle",{cx:X(j),cy:Y(v),r:se.r||4,fill:(se.colorPunto?se.colorPunto(j):se.color),stroke:"#fcfcfb","stroke-width":1.5}, s);
+      const h = el("circle",{cx:X(j),cy:Y(v),r:10,fill:"transparent"}, s);
+      hover(h, () => `<b>PC${j+1}</b> · ${se.nombre}<br>${sg(v)} min`+(D.pc[j]?`<br><span style="opacity:.75">${D.pc[j].desc}</span>`:""));
+    });
+  });
+  if (opts.rombos){ el("text",{x:X(17)+50, y:mt+8, "font-size":11, "text-anchor":"middle", fill:"#52514e"}, s, "Predicción");
+    el("text",{x:X(17)+50, y:H-2, "font-size":10, "text-anchor":"middle", fill:"#898781"}, s, "con k ="); }
+  if (opts.rombos) opts.rombos.forEach(r => {
+    const x = X(17)+ (r.dx||0), y = Y(r.v);
+    const g = el("g",{}, s);
+    el("text",{x, y:H-14, "font-size":10, "text-anchor":"middle", fill:"#52514e"}, g, String(r.k));
+    el("path",{d:`M${x} ${y-7} L${x+7} ${y} L${x} ${y+7} L${x-7} ${y} Z`, fill:r.color, stroke:"#fcfcfb","stroke-width":1.5, opacity:r.op||1}, g);
+    hover(g, () => r.tip);
+  });
+  return {s, X, Y};
+}
+
+// ================= 1. Ruta
+let franja = "todas";
+function dibujarRuta(){
+  const P = D.perfil[franja];
+  mapa(document.getElementById("mapaRuta"), j => divergente(P.media[j], 5),
+       j => `<b>PC${j+1}</b> · ${D.pc[j].desc}<br>Desviación media: <b>${sg(P.media[j])} min</b><br>${P.nombre} (${P.n} vueltas)`);
+  const lg = document.createElement("div"); document.getElementById("mapaRuta").appendChild(lg); leyenda(lg, 5);
+  perfilPC(document.getElementById("perfilRuta"), [{v:P.media, color:"#2a78d6", nombre:P.nombre, colorPunto:j=>divergente(P.media[j],5), r:5}], {h:240});
+}
+seg("segFranja", Object.entries(D.perfil).map(([k,p])=>[k,p.nombre]), "todas", v=>{franja=v; dibujarRuta();});
+dibujarRuta();
+
+// ================= 2. Explorar una vuelta
+const fechas = [...new Set(D.vueltas.map(v=>v.fecha))].sort();
+const selF = document.getElementById("selFecha"), selV = document.getElementById("selVuelta");
+fechas.forEach(f => selF.add(new Option(fechaTxt(f)+" ("+D.vueltas.filter(v=>v.fecha===f).length+" vueltas)", f)));
+let kSel = 0;
+function llenarVueltas(){
+  const lista = D.vueltas.filter(v=>v.fecha===selF.value).sort((a,b)=>a.hora-b.hora);
+  selV.innerHTML = "";
+  lista.forEach(v => selV.add(new Option(`${hhmm(v.hora)} · vehículo ${v.veh} · vuelta ${v.vuelta} · real ${sg(v.y,0)} min`, v.id)));
+}
+function chip(c){ return `<span class="chip c${c}">${CLASES[c]}</span>`; }
+function barrasProba(cont, p){
+  cont.innerHTML = "<div class='etq' style='margin-bottom:4px'>Probabilidad de cada clase</div>" + p.map((x,c)=>
+    `<div style="display:flex;align-items:center;gap:8px;margin:3px 0"><span style="width:84px;font-size:13px">${CLASES[c]}</span>
+     <div style="flex:1;background:#f0efec;border-radius:4px;height:14px"><div style="width:${(x*100).toFixed(1)}%;height:14px;border-radius:4px;background:${["#2a78d6","#8a897f","#e34948"][c]}"></div></div>
+     <span style="width:44px;text-align:right;font-size:13px">${fmt(x*100,0)} %</span></div>`).join("");
+}
+function dibujarVuelta(){
+  const v = D.vueltas.find(x=>String(x.id)===selV.value); if(!v) return;
+  const k = String(kSel), pred = v.pred[k];
+  document.getElementById("vPred").textContent = sg(pred) + " min";
+  document.getElementById("vPClase").innerHTML = "clase predicha: " + chip(v.pclase[k]);
+  document.getElementById("vReal").textContent = sg(v.y,0) + " min";
+  document.getElementById("vClase").innerHTML = "clase real: " + chip(v.clase);
+  document.getElementById("vErr").textContent = fmt(Math.abs(pred - v.y)) + " min";
+  barrasProba(document.getElementById("vProba"), v.proba[k]);
+  const obs = v.d.map((x,j)=> j<kSel ? x : null), fut = v.d.map((x,j)=> j>=Math.max(kSel-1,0) ? x : null);
+  const rombos = [0,4,8,12].map((kk,i)=>({k:kk, v:v.pred[String(kk)], dx:26+i*16, color:kk===kSel?"#2a78d6":"#86b6ef", op:kk===kSel?1:0.8,
+    tip:`Predicción con k = ${kk}: <b>${sg(v.pred[String(kk)])} min</b> (${CLASES[v.pclase[String(kk)]]})`}));
+  perfilPC(document.getElementById("vPerfil"), [
+    {v:fut, color:"#c3c2b7", nombre:"Real (aún no observado)", w:2, r:3},
+    {v:obs, color:"#0b0b0b", nombre:"Real (observado)", colorPunto:j=>divergente(v.d[j],5), r:5}],
+    {corte:kSel, rombos, extra:[0,4,8,12].map(kk=>v.pred[String(kk)])});
+  mapa(document.getElementById("vMapa"), j => j<kSel ? divergente(v.d[j],5) : "#e1e0d9",
+       j => `<b>PC${j+1}</b> · ${D.pc[j].desc}<br>` + (j<kSel ? `Desviación real: <b>${sg(v.d[j],0)} min</b>` : "Aún no observado"), 520);
+  // SHAP (k = 0)
+  const cont = document.getElementById("vShap"); const W=520, filas=v.shap.map((x,i)=>[D.shap_vars[i],x]).sort((a,b)=>Math.abs(b[1])-Math.abs(a[1]));
+  const H = 40 + filas.length*30 + 30, ml=130, mr=90;
+  let acum=D.base_shap; const pasos=[]; filas.forEach(([n,x])=>{pasos.push([n,acum,acum+x,x]); acum+=x;});
+  const vals=[D.base_shap,acum,...pasos.flatMap(p=>[p[1],p[2]]),0]; const lo=Math.min(...vals)-2, hi=Math.max(...vals)+2;
+  const X = t => ml + (t-lo)*(W-ml-mr)/(hi-lo); const s = svg(cont, W, H);
+  el("line",{x1:X(0),x2:X(0),y1:20,y2:H-24,stroke:"#c3c2b7"}, s);
+  el("text",{x:ml-8,y:28,"font-size":12,"text-anchor":"end",fill:"#52514e"}, s, "Promedio");
+  el("text",{x:X(D.base_shap)+6,y:28,"font-size":12,fill:"#0b0b0b"}, s, sg(D.base_shap)+" min");
+  el("line",{x1:X(D.base_shap),x2:X(D.base_shap),y1:16,y2:H-24,stroke:"#898781","stroke-dasharray":"3 3"}, s);
+  pasos.forEach(([n,a,b,x],i)=>{ const y=44+i*30;
+    el("text",{x:ml-8,y:y+14,"font-size":12,"text-anchor":"end",fill:"#0b0b0b"}, s, VARS[n]||n);
+    const r = el("rect",{x:X(Math.min(a,b)), y, width:Math.max(2,Math.abs(X(b)-X(a))), height:20, rx:3, fill:x>=0?"#e34948":"#2a78d6"}, s);
+    el("text",{x:(x>=0?X(b)+5:X(b)-5), y:y+14,"font-size":12,"text-anchor":x>=0?"start":"end",fill:"#0b0b0b"}, s, sg(x));
+    hover(r, ()=>`<b>${VARS[n]||n}</b>: ${sg(x)} min`);
+  });
+  const yF = 44+pasos.length*30+4;
+  el("text",{x:ml-8,y:yF+12,"font-size":12,"text-anchor":"end",fill:"#52514e","font-weight":700}, s, "Predicción");
+  el("text",{x:X(acum)+6,y:yF+12,"font-size":12,"font-weight":700,fill:"#0b0b0b"}, s, sg(acum)+" min");
+  el("line",{x1:X(acum),x2:X(acum),y1:20,y2:H-20,stroke:"#0b0b0b","stroke-width":1.5}, s);
+}
+selF.onchange = () => { llenarVueltas(); dibujarVuelta(); };
+selV.onchange = dibujarVuelta;
+seg("segK", [[0,"0 (antes de salir)"],[4,"4"],[8,"8"],[12,"12"]], 0, v=>{kSel=+v; dibujarVuelta();});
+selF.value = fechas[fechas.length-1]; llenarVueltas();
+{ // por defecto, la vuelta que el paper explica con SHAP (Fig. 9): sábado 01/02, salida 17:54
+  const ej = D.vueltas.find(v=>v.id===38708) || D.vueltas.filter(v=>v.fecha===selF.value).find(v=>v.hora>=17.5);
+  if (ej) { selF.value = ej.fecha; llenarVueltas(); selV.value = ej.id; } }
+dibujarVuelta();
+
+// ================= 3. Simulador
+let diaSel = 5;
+const rng = document.getElementById("rngHora"), selH = document.getElementById("selHorario");
+rng.max = D.horas.length-1; rng.value = D.horas.indexOf(17.5) >= 0 ? D.horas.indexOf(17.5) : 40;
+[147,161,168,170].forEach(h=>selH.add(new Option(h+" min", h)));
+let horarioManual = false;
+function horarioDe(h, dia=diaSel){ return D.horario_frec[dia+"|"+Math.floor(h)] || D.horario_frec[String(Math.floor(h))] || 161; }
+function clave(dia,h,hor){ return dia+"|"+h.toFixed(2)+"|"+hor; }
+function dibujarSim(){
+  const h = D.horas[+rng.value];
+  document.getElementById("lblHora").textContent = hhmm(h);
+  if (!horarioManual) selH.value = horarioDe(h);
+  const r = D.simulador[clave(diaSel,h,+selH.value)];
+  document.getElementById("sPred").textContent = sg(r[0]) + " min";
+  const c = [r[1],r[2],r[3]].indexOf(Math.max(r[1],r[2],r[3]));
+  document.getElementById("sClase").innerHTML = "clase más probable: " + chip(c);
+  barrasProba(document.getElementById("sProba"), [r[1],r[2],r[3]]);
+  document.getElementById("sAviso").innerHTML = r[4]===0 ? `<div class="aviso">En los datos no hay vueltas de ${DIAS[diaSel]} a las ${Math.floor(h)} h con horario de ${selH.value} min: el modelo extrapola y la predicción es menos confiable.</div>` :
+    `<p class="nota" style="margin-top:10px">En los datos hay ${r[4]} vueltas de ${DIAS[diaSel].toLowerCase()} entre las ${Math.floor(h)} y las ${Math.floor(h)+1} h con este horario.</p>`;
+  // curva del día
+  const W=560, H=260, ml=44, mr=14, mt=14, mb=34, hs=D.horas;
+  const serie = dia => hs.map(x=>D.simulador[clave(dia,x,horarioDe(x,dia))][0]);
+  const a = serie(diaSel), b = serie(1), vals=a.concat(b,[0,5]);
+  const lo=Math.floor(Math.min(...vals)-1), hi=Math.ceil(Math.max(...vals)+1);
+  const X = x => ml+(x-4)*(W-ml-mr)/16, Y = v => mt+(hi-v)*(H-mt-mb)/(hi-lo);
+  const s = svg(document.getElementById("sDia"), W, H);
+  for (let t=Math.ceil(lo/5)*5;t<=hi;t+=5){ el("line",{x1:ml,x2:W-mr,y1:Y(t),y2:Y(t),stroke:t===0?"#52514e":"#e1e0d9"}, s);
+    el("text",{x:ml-6,y:Y(t)+4,"font-size":11,"text-anchor":"end",fill:"#52514e"}, s, String(t).replace("-","−")); }
+  for (let x=4;x<=20;x+=2) el("text",{x:X(x),y:H-14,"font-size":11,"text-anchor":"middle",fill:"#52514e"}, s, x+" h");
+  el("line",{x1:ml,x2:W-mr,y1:Y(5),y2:Y(5),stroke:"#898781","stroke-dasharray":"3 3"}, s);
+  const linea = (v,col,w) => el("path",{d:v.map((y,i)=>(i?"L":"M")+X(hs[i])+" "+Y(y)).join(" "),fill:"none",stroke:col,"stroke-width":w}, s);
+  if (diaSel!==1) linea(b,"#c3c2b7",2);
+  linea(a,"#2a78d6",2.5);
+  el("line",{x1:X(h),x2:X(h),y1:mt,y2:H-mb,stroke:"#0b0b0b","stroke-dasharray":"2 3"}, s);
+  el("circle",{cx:X(h),cy:Y(r[0]),r:6,fill:"#2a78d6",stroke:"#fcfcfb","stroke-width":2}, s);
+  el("text",{x:ml+8,y:mt+10,"font-size":11.5,"font-weight":700,fill:"#2a78d6"}, s, "— "+DIAS[diaSel]);
+  if (diaSel!==1) el("text",{x:ml+8,y:mt+24,"font-size":11.5,fill:"#898781"}, s, "— Mar (referencia)");
+  hs.forEach((x,i)=>{ const z = el("rect",{x:X(x)-4,y:mt,width:8,height:H-mt-mb,fill:"transparent"}, s);
+    hover(z, ()=>`<b>${hhmm(x)}</b><br>${DIAS[diaSel]}: ${sg(a[i])} min`+(diaSel!==1?`<br>Mar: ${sg(b[i])} min`:"")); });
+}
+seg("segDia", DIAS.map((d,i)=>[i,d]), 5, v=>{diaSel=+v; horarioManual=false; dibujarSim();});
+rng.oninput = dibujarSim; selH.onchange = () => { horarioManual = true; dibujarSim(); };
+dibujarSim();
+
+// ================= 4. Resultados
+let tarea = "reg";
+function dibujarK(){
+  const datos = tarea==="reg" ? D.mae_k : D.f1_k, W=560, H=300, ml=46, mr=120, mt=14, mb=36;
+  const vals = Object.values(datos).flatMap(s=>s.map(p=>p[1]));
+  const lo = tarea==="reg" ? 2 : 0.2, hi = tarea==="reg" ? Math.ceil(Math.max(...vals)*2)/2 : 0.8;
+  const X = k => ml + k*(W-ml-mr)/12, Y = v => mt+(hi-v)*(H-mt-mb)/(hi-lo);
+  const s = svg(document.getElementById("rK"), W, H);
+  const paso = tarea==="reg" ? 0.5 : 0.1;
+  for (let t=lo;t<=hi+1e-9;t+=paso){ el("line",{x1:ml,x2:W-mr,y1:Y(t),y2:Y(t),stroke:"#e1e0d9"}, s);
+    el("text",{x:ml-6,y:Y(t)+4,"font-size":11,"text-anchor":"end",fill:"#52514e"}, s, fmt(t,tarea==="reg"?1:1)); }
+  [0,4,8,12].forEach(k=>el("text",{x:X(k),y:H-16,"font-size":11,"text-anchor":"middle",fill:"#52514e"}, s, String(k)));
+  el("text",{x:(ml+W-mr)/2,y:H-2,"font-size":11,"text-anchor":"middle",fill:"#898781"}, s, "PC observados (k)");
+  // etiquetas al final de cada línea sin superponerse (separación mínima de 14 px)
+  const fin = Object.entries(datos).map(([mo,pts])=>({mo, y:Y(pts[pts.length-1][1]), x:X(pts[pts.length-1][0])})).sort((a,b)=>a.y-b.y);
+  for (let i=1;i<fin.length;i++) if (fin[i].y-fin[i-1].y<14) fin[i].y = fin[i-1].y+14;
+  const yEtq = Object.fromEntries(fin.map(f=>[f.mo,f.y]));
+  Object.entries(datos).forEach(([mo,pts])=>{
+    const base = mo.startsWith("B");
+    el("path",{d:pts.map((p,i)=>(i?"L":"M")+X(p[0])+" "+Y(p[1])).join(" "),fill:"none",stroke:COLOR[mo],"stroke-width":base?2:2.5,"stroke-dasharray":base?"5 4":""}, s);
+    pts.forEach(p=>{ el("circle",{cx:X(p[0]),cy:Y(p[1]),r:4.5,fill:COLOR[mo],stroke:"#fcfcfb","stroke-width":1.5}, s);
+      const h = el("circle",{cx:X(p[0]),cy:Y(p[1]),r:11,fill:"transparent"}, s);
+      hover(h, ()=>`<b>${NOMBRE[mo]}</b>, k = ${p[0]}<br>${tarea==="reg"?"MAE":"F1-macro"}: ${fmt(p[1],3)}`); });
+    const u = pts[pts.length-1]; el("text",{x:X(u[0])+10,y:yEtq[mo]+4,"font-size":11.5,fill:"#0b0b0b"}, s, NOMBRE[mo].replace(" / mayoritaria",""));
+  });
+}
+seg("segTarea", [["reg","MAE (regresión, menor es mejor)"],["clf","F1-macro (clasificación, mayor es mejor)"]], "reg", v=>{tarea=v; dibujarK();});
+dibujarK();
+{ const W=520,H=280,ml=40,mt=14,mb=48, n=D.por_dia.length, bw=(W-ml-20)/n, hi=Math.ceil(Math.max(...D.por_dia.map(d=>d.mae))+1);
+  const Y = v => mt+(hi-v)*(H-mt-mb)/hi; const s = svg(document.getElementById("rDia"), W, H);
+  for (let t=0;t<=hi;t+=1){ el("line",{x1:ml,x2:W-10,y1:Y(t),y2:Y(t),stroke:"#e1e0d9"}, s); el("text",{x:ml-6,y:Y(t)+4,"font-size":11,"text-anchor":"end",fill:"#52514e"}, s, String(t)); }
+  D.por_dia.forEach((d,i)=>{ const x = ml+i*bw+bw*0.18, sab = fechaTxt(d.fecha).startsWith("Sáb");
+    const r = el("rect",{x, y:Y(d.mae), width:bw*0.64, height:Y(0)-Y(d.mae), rx:4, fill:sab?"#eb6834":"#2a78d6"}, s);
+    el("text",{x:x+bw*0.32,y:Y(d.mae)-6,"font-size":12,"text-anchor":"middle",fill:"#0b0b0b"}, s, fmt(d.mae,2));
+    el("text",{x:x+bw*0.32,y:H-30,"font-size":11.5,"text-anchor":"middle",fill:"#52514e"}, s, fechaTxt(d.fecha));
+    el("text",{x:x+bw*0.32,y:H-14,"font-size":11,"text-anchor":"middle",fill:"#898781"}, s, fmt(d.pct,0)+" % del error");
+    hover(r, ()=>`<b>${fechaTxt(d.fecha)}</b><br>${d.vueltas} vueltas · retraso medio ${sg(d.retraso)} min<br>MAE ${fmt(d.mae,2)} min · ${fmt(d.pct,1)} % del error total`); });
+}
+function dibujarConf(cual){
+  const m = D.conf[cual], W=420, H=330, ml=110, mt=40, c=82, s = svg(document.getElementById("rConf"), W, H);
+  const mx = Math.max(...m.flat());
+  el("text",{x:ml+1.5*c,y:16,"font-size":12,"text-anchor":"middle",fill:"#52514e"}, s, "Clase predicha");
+  m.forEach((fila,i)=>{ const tot = fila.reduce((a,b)=>a+b,0);
+    el("text",{x:ml-8,y:mt+i*c+c/2+4,"font-size":12,"text-anchor":"end",fill:"#0b0b0b"}, s, CLASES[i]);
+    fila.forEach((v,j)=>{ const t=v/mx, r = el("rect",{x:ml+j*c,y:mt+i*c,width:c-3,height:c-3,rx:4,fill:mezcla("#eef4fc","#184f95",Math.sqrt(t))}, s);
+      el("text",{x:ml+j*c+c/2,y:mt+i*c+c/2,"font-size":16,"font-weight":700,"text-anchor":"middle",fill:t>0.45?"#fff":"#0b0b0b"}, s, String(v));
+      el("text",{x:ml+j*c+c/2,y:mt+i*c+c/2+17,"font-size":11,"text-anchor":"middle",fill:t>0.45?"#fff":"#52514e"}, s, fmt(100*v/tot,0)+" %");
+      hover(r, ()=>`Real <b>${CLASES[i]}</b>, predicha <b>${CLASES[j]}</b><br>${v} vueltas (${fmt(100*v/tot,1)} % de la fila)`); }); });
+  CLASES.forEach((n,j)=>el("text",{x:ml+j*c+c/2,y:mt+3*c+16,"font-size":12,"text-anchor":"middle",fill:"#0b0b0b"}, s, n));
+  const acc = m.reduce((a,f,i)=>a+f[i],0)/m.flat().reduce((a,b)=>a+b,0);
+  el("text",{x:ml+1.5*c,y:H-4,"font-size":12,"text-anchor":"middle",fill:"#52514e"}, s, `Exactitud ${fmt(acc*100,1)} % · cada fila suma 100 %`);
+}
+seg("segConf", [["k0","k = 0 (antes de salir)"],["k12","k = 12 (con pesos por clase)"]], "k0", dibujarConf);
+dibujarConf("k0");
+{ const imp = D.importancia, W=520, H=40+imp.length*34, ml=150, mr=70, mx=Math.max(...imp.map(x=>x[1]));
+  const s = svg(document.getElementById("rImp"), W, H);
+  imp.forEach(([n,v],i)=>{ const y=14+i*34, w=Math.max(2,(W-ml-mr)*v/mx);
+    el("text",{x:ml-8,y:y+15,"font-size":12.5,"text-anchor":"end",fill:"#0b0b0b"}, s, VARS[n]||n);
+    const r = el("rect",{x:ml,y,width:w,height:22,rx:4,fill:"#2a78d6"}, s);
+    el("text",{x:ml+w+6,y:y+15,"font-size":12.5,fill:"#0b0b0b"}, s, "+"+fmt(v,2)+" min");
+    hover(r, ()=>`Al desordenar <b>${VARS[n]||n}</b>, el MAE sube ${fmt(v,2)} min`); }); }
+</script>
+</body>
+</html>

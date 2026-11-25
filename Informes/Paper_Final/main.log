@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.24)  24 NOV 2026 23:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.24)  24 NOV 2026 23:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -554,7 +554,7 @@ LaTeX Warning: Text page 4 contains only floats.
 [4 <./fig/paper_fig2_hora_dia.png> <./fig/paper_fig3_tramos.png> <./fig/paper_f
 ig4_corr_k.png>] [5] [6] (tablas/t_cv_mae.tex) (tablas/t_cv_f1.tex)
 (tablas/t_test_mae.tex) (tablas/t_test_f1.tex) (tablas/t_h1.tex) [7]
-<fig/paper_fig5_efecto_k.png, id=367, 233.4321pt x 268.6035pt>
+<fig/paper_fig5_efecto_k.png, id=366, 233.4321pt x 268.6035pt>
 File: fig/paper_fig5_efecto_k.png Graphic file (type png)
 <use fig/paper_fig5_efecto_k.png>
 Package pdftex.def Info: fig/paper_fig5_efecto_k.png  used on input line 486.
@@ -562,82 +562,79 @@ Package pdftex.def Info: fig/paper_fig5_efecto_k.png  used on input line 486.
 
 (tablas/t_h2.tex) (tablas/t_h3.tex) (tablas/t_xgb_rf.tex) [8 <./fig/paper_fig5_
 efecto_k.png>]
-<fig/paper_fig6_confusion.png, id=382, 234.3957pt x 115.1502pt>
+<fig/paper_fig6_confusion.png, id=381, 234.3957pt x 115.1502pt>
 File: fig/paper_fig6_confusion.png Graphic file (type png)
 <use fig/paper_fig6_confusion.png>
 Package pdftex.def Info: fig/paper_fig6_confusion.png  used on input line 525.
 (pdftex.def)             Requested size: 252.0pt x 123.79987pt.
  (tablas/t_sens_espec.tex) (tablas/t_umbrales.tex)
 (tablas/t_dia.tex) (tablas/t_cribado.tex)
-<fig/paper_fig7_importancia.png, id=387, 247.1634pt x 320.1561pt>
+<fig/paper_fig7_importancia.png, id=386, 247.1634pt x 320.1561pt>
 File: fig/paper_fig7_importancia.png Graphic file (type png)
 <use fig/paper_fig7_importancia.png>
 Package pdftex.def Info: fig/paper_fig7_importancia.png  used on input line 574
 .
 (pdftex.def)             Requested size: 252.0pt x 326.42787pt.
  [9 <./fig/paper_fig6_confusion.png> <./fig/paper_fig7_importancia.png>]
-<fig/paper_fig8_shap.png, id=404, 236.082pt x 124.7862pt>
+<fig/paper_fig8_shap.png, id=403, 236.082pt x 124.7862pt>
 File: fig/paper_fig8_shap.png Graphic file (type png)
 <use fig/paper_fig8_shap.png>
 Package pdftex.def Info: fig/paper_fig8_shap.png  used on input line 582.
 (pdftex.def)             Requested size: 252.0pt x 133.2pt.
-<fig/paper_fig9_shap_sabado.png, id=405, 236.5638pt x 119.4864pt>
+<fig/paper_fig9_shap_sabado.png, id=404, 236.5638pt x 119.4864pt>
 File: fig/paper_fig9_shap_sabado.png Graphic file (type png)
 <use fig/paper_fig9_shap_sabado.png>
 Package pdftex.def Info: fig/paper_fig9_shap_sabado.png  used on input line 588
 .
 (pdftex.def)             Requested size: 252.0pt x 127.28215pt.
- [10 <./fig/paper_fig8_shap.png> <./fig/paper_fig9_shap_sabado.png>]
-Underfull \vbox (badness 1194) has occurred while \output is active []
-
- [11]
-Underfull \hbox (badness 5245) in paragraph at lines 634--635
+ [10 <./fig/paper_fig8_shap.png> <./fig/paper_fig9_shap_sabado.png>] [11]
+Underfull \hbox (badness 5245) in paragraph at lines 636--637
 []\T1/ptm/m/n/8 N. Rash-vand, S. S. Hos-sei-ni, M. Azar-bay-ja-ni y H. Tabkhi,
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 634--635
+Underfull \hbox (badness 1622) in paragraph at lines 636--637
 \T1/ptm/m/n/8 ``Real-time bus arri-val pre-dic-tion: A deep lear-ning ap-proach
  for
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 634--635
+Underfull \hbox (badness 3179) in paragraph at lines 636--637
 \T1/ptm/m/n/8 en-han-ced ur-ban mo-bi-lity,'' Sci-Te-Press, 2024, pp. 123--132,
  doi:
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 641--642
+Underfull \hbox (badness 2393) in paragraph at lines 643--644
 \T1/ptm/m/n/8 ween sen-si-ti-vity and spe-ci-fi-city in bus bun-ching pre-dic-t
 ion,'' \T1/ptm/m/it/8 J.
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 641--642
+Underfull \hbox (badness 2990) in paragraph at lines 643--644
 \T1/ptm/m/it/8 In-tell. Transp. Syst.\T1/ptm/m/n/8 , vol. 25, no. 4, pp. 384--4
 00, 2021, doi:
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 642--643
+Underfull \hbox (badness 1603) in paragraph at lines 644--645
 []\T1/ptm/m/n/8 H. Yu, D. Chen, Z. Wu, X. Ma y Y. Wang, ``Headway-based
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 642--643
+Underfull \hbox (badness 2205) in paragraph at lines 644--645
 \T1/ptm/m/n/8 bus bun-ching pre-dic-tion using transit smart card da-ta,'' \T1/
 ptm/m/it/8 Transp.
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 642--643
+Underfull \hbox (badness 2894) in paragraph at lines 644--645
 \T1/ptm/m/it/8 Res. Part C Emerg. Tech-nol.\T1/ptm/m/n/8 , vol. 72, pp. 45--59,
  2016, doi:
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-44.
+46.
 (D:\Latex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -652,9 +649,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[12
-
-] (main.aux
+[12] (main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -672,7 +667,7 @@ Here is how much of TeX's memory you used:
  41313 multiletter control sequences out of 15000+600000
  746748 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,79p,1959b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,79p,1959b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Latex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Latex/fonts/type1/pub
 lic/amsfonts/cm/cmex10.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <D:/Latex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Latex/fonts/type1/public
@@ -686,9 +681,9 @@ pe1/public/amsfonts/cm/cmsy5.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cmsy7
 ublic/amsfonts/cm/cmsy9.pfb><D:/Latex/fonts/type1/urw/times/utmb8a.pfb><D:/Late
 x/fonts/type1/urw/times/utmbi8a.pfb><D:/Latex/fonts/type1/urw/times/utmr8a.pfb>
 <D:/Latex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 758162 bytes).
+Output written on main.pdf (12 pages, 759661 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
+ 540 PDF objects out of 1000 (max. 8388607)
  118 named destinations out of 1000 (max. 500000)
  374 words of extra memory for PDF output out of 10000 (max. 10000000)
 
