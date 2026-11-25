@@ -1,0 +1,1143 @@
+Combinaciones: 4165 | entrenamientos: 1330 x 4 pliegues | pendientes: 1330
+[64/1330] 3.2 min | faltan ~63 min
+[128/1330] 6.8 min | faltan ~64 min
+[192/1330] 11.1 min | faltan ~66 min
+[256/1330] 17.1 min | faltan ~72 min
+[320/1330] 23.3 min | faltan ~74 min
+[384/1330] 26.5 min | faltan ~65 min
+[448/1330] 29.2 min | faltan ~58 min
+[512/1330] 32.7 min | faltan ~52 min
+[576/1330] 37.5 min | faltan ~49 min
+[640/1330] 43.0 min | faltan ~46 min
+[704/1330] 45.9 min | faltan ~41 min
+[768/1330] 47.3 min | faltan ~35 min
+[832/1330] 49.8 min | faltan ~30 min
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+[896/1330] 51.2 min | faltan ~25 min
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+[960/1330] 52.4 min | faltan ~20 min
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+[1024/1330] 54.2 min | faltan ~16 min
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+[1088/1330] 55.6 min | faltan ~12 min
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+[1152/1330] 56.7 min | faltan ~9 min
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+C:\Users\USUARIO\AppData\Local\Temp\claude\ef83d090f5708062\156870e7-0a1c-4ed0-9ffd-66a060280e63\scratchpad\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:451: OptimizeWarning: Unknown solver options: iprint
+  opt_res = optimize.minimize(
+[1216/1330] 58.4 min | faltan ~5 min
+[1280/1330] 60.9 min | faltan ~2 min
+[1330/1330] 65.6 min | faltan ~0 min
+Búsqueda terminada

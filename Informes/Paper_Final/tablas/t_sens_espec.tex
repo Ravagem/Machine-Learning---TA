@@ -1,0 +1,12 @@
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+ & & & & \multicolumn{3}{c}{Sensibilidad / especificidad} \\
+\cmidrule(l){5-7}
+Modelo & Exact. & Exact. bal. & $\kappa$ & Adelantado & Puntual & Retrasado \\
+\midrule
+XGB, $k=0$ & 0,780 & 0,722 & 0,595 & 0,54 / 0,97 & 0,86 / 0,67 & 0,77 / 0,92 \\
+XGB, $k=12$ F1 & 0,790 & 0,736 & 0,617 & 0,53 / 0,98 & 0,86 / 0,70 & 0,83 / 0,91 \\
+XGB, $k=12$ F1 + pesos & 0,790 & 0,752 & 0,624 & 0,59 / 0,96 & 0,84 / 0,73 & 0,83 / 0,91 \\
+Clase mayoritaria & 0,592 & 0,333 & 0,000 & 0,00 / 1,00 & 1,00 / 0,00 & 0,00 / 1,00 \\
+\bottomrule
+\end{tabular}
